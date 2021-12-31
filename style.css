@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Vujahday+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #bbeff3 , #a0f7f2);
+}
+.title{
+    font-family: 'Licorice', cursive;
+    color: #161b019a;
+    font-size: 50px;
+    margin: 50px 0px;
+    font-weight: bolder;
+}
+
+.container{
+    height:70vh;
+    width: 70vw;
+    border-radius: 1vh;
+    background-color: #5accc6;
+    filter: drop-shadow(-5px 5px 25px black);
+}
+.buttons{
+    padding-top:2vh ;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+.buttons>button{
+    padding: 0.5vh 0.75vw;
+    font-family: 'Vujahday Script', cursive;
+    font-size: 25px;
+    filter: drop-shadow(1px 1px 5px black);
+    cursor: pointer;
+}
+
+.sketch{
+    border: none;
+    background-color: #67cc67;
+    border-radius: 1vh;
+}
+
+.erase{
+    border: none;
+    background-color: #779be4;
+    border-radius: 1vh;
+}
+
+.reset{
+    border: none;
+    background-color: #cc4e4e;
+    border-radius: 1vh;
+}
+
+.erase:hover {
+    background-color: #376fdd;
+}
+
+.sketch:hover {
+    background-color: #30be30;
+}
+
+.reset:hover {
+    background-color: #ca2626;
+}
+
+.grid {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+    padding: 2vh;
+    flex-wrap: wrap;
+    width: 64.5vw;
+    height: 55vh;
+    overflow: hidden;
+
+}
+
+.box {
+    background-color: #b6b6b6;
+    width: 20px;
+    height: 20px;
+    border: 2px white solid;
+}
