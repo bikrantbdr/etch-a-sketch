@@ -69,6 +69,10 @@ body {
     background-color: #376fdd;
 }
 
+.rainbow:hover {
+    color:azure;
+}
+
 .sketch:hover {
     background-color: #30be30;
 }
