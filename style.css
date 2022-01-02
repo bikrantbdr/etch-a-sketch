@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 body {
@@ -46,6 +47,12 @@ body {
     border-radius: 1vh;
 }
 
+.rainbow{
+    border: none;
+    background-image: linear-gradient(to right,#e65c5c,#da7c45,#f5e345,#6dc532,#0e6a8f,#1621bd,#5216b3);
+    border-radius: 1vh;
+}
+
 .erase{
     border: none;
     background-color: #779be4;
@@ -75,10 +82,10 @@ body {
     border-radius: 15px;
     display: flex;
     margin: auto;
-    padding: 2vh;
+    padding: 15px;
     flex-wrap: wrap;
-    width: 64.5vw;
-    height: 55vh;
+    width: 950px;
+    height: 425px;
     overflow: hidden;
 
 }
